@@ -5,12 +5,14 @@ import profile from '../../assets/profile/Myself.jpg'
 
 const About = () => {
   const [text] = useTypewriter({
-    words: ["Full Stack Development", "Web Development", "Flutter Development", "AI/ML Enthusiast"],
+    words: ["Flutter Development",],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
+
+
   return (
     <div className="hero text-white bg-slate-950 py-6 text-justify">
       <div className="hero-content flex-col lg:flex-row-reverse  ">
@@ -37,6 +39,8 @@ const About = () => {
       </div>
     </div>
   );
+
 };
+
 
 export default About;
