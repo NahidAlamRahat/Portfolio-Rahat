@@ -4,6 +4,7 @@ import profile from '../../assets/profile/Myself.jpg'
 
 
 const About = () => {
+
   const [text] = useTypewriter({
     words: ["Flutter Development",],
     loop: true,
